@@ -1,0 +1,147 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin: 10px 40px 100px 20px;
+
+
+
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100px;
+    color: #17233d;
+    cursor: pointer;
+    margin-right: 30px;
+
+}
+
+.button-header {
+    background: #665ae1;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 124;
+    height: 51;
+    top: 32px;
+    left: 420px;
+    border: none;
+
+
+}
+
+.logo {
+    width: 595.18;
+    height: 500;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+}
+
+main {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 62;
+    font-weight: 700;
+    color: #161a49;
+    margin: 10px 10px 10px 50px;
+    line-height: 50px;
+    width: 500px;
+
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4b505a;
+    margin: 50px 50px 50px 50px;
+    line-height: 50px;
+    width: 500px;
+
+}
+
+a {
+    color: #6fbf44;
+    width: 500px;
+    cursor: pointer;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin-left: 50px;
+}
+
+@media (max-width: 900px) {
+
+    main {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    header {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    p {
+        font-size: 14px;
+        margin: 15px auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .link-header {
+        font-size: 13px;
+    }
+
+    .button-header {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .link-header {
+        display: none;
+    }
+}
