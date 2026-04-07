@@ -26,8 +26,8 @@ header {
     border-radius: 5px;
     font-weight: 500;
     font-size: 14px;
-    width: 124;
-    height: 51;
+    width: 124px;
+    height: 51px;
     top: 32px;
     left: 420px;
     border: none;
@@ -36,7 +36,7 @@ header {
 }
 
 .logo {
-    width: 595.18;
+    width: 595.18px;
     height: 500;
     margin-left: 25px;
     margin-right: 25px;
@@ -48,11 +48,15 @@ div {
 }
 
 main {
-    display: inline-block;
+   main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }
 
 h1 {
-    font-size: 62;
+    font-size: 62px;
     font-weight: 700;
     color: #161a49;
     margin: 10px 10px 10px 50px;
@@ -86,12 +90,14 @@ a {
         flex-direction: column;
         text-align: center;
         padding: 30px 20px;
+        display: flex;
     }
 
     header {
         justify-content: center;
         flex-wrap: wrap;
         gap: 15px;
+        display: flex;
     }
 
     .logo {
